@@ -26,7 +26,7 @@ public class KafkaAdminConfig {
         return new KafkaAdmin.NewTopics(
                 TopicBuilder
                         .name("str-topic")
-                        .partitions(1)
+                        .partitions(2)
                         .replicas(1)
                         .build()
         );
